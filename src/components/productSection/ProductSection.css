@@ -1,0 +1,18 @@
+.ProductSection {
+  height: 100dvh;
+  width: 100vw;
+  background: #ffffff;
+}
+
+.ProductSection__picture {
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ProductSection__text {
+  margin: 5% 3% 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
