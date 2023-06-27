@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* MEDIA QUERIES */
+
+/* tablet */
+@media (min-width: 767px) {
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+}
