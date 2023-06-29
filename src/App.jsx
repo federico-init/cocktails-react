@@ -4,6 +4,7 @@ import { useState } from "react";
 // import components
 import ProductSection from "./components/productSection";
 import ProductList from "./components/productList";
+import Contacts from "./components/contacts/Contacts";
 
 // import css
 import "./App.css";
