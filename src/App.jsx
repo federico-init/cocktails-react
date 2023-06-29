@@ -2,9 +2,9 @@
 import { useState } from "react";
 
 // import components
+import Navbar from "./components/navbar";
 import ProductSection from "./components/productSection";
 import ProductList from "./components/productList";
-import Contacts from "./components/contacts/Contacts";
 
 // import css
 import "./App.css";
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar setProductSection={setProductSection} />
       {productSection ? (
         <ProductSection
           productSection={productSection}
