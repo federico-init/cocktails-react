@@ -17,7 +17,7 @@ const ProductSection = ({ productSection, setProductSection }) => {
     GET(`search.php?s=${productSection}`).then((data) =>
       setProductData(data.drinks[0])
     );
-  }, []);
+  }, [productSection]);
 
   // definisco la gestione al click del pulsante 'back'
   const onHandleClick = () => setProductSection("");
