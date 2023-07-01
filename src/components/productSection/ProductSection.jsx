@@ -54,7 +54,6 @@ const ProductSection = ({ productSection, setProductSection }) => {
       <p className="ProductSection__instructions">
         {productData.strInstructions}
       </p>
-      {/* TODO: modificare close/back button */}
       <button className="ProductSection__close" onClick={onHandleClick}>
         ✖
       </button>

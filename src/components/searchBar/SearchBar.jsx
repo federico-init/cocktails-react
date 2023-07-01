@@ -24,6 +24,7 @@ const SearchBar = ({ setProductSection }) => {
 
   return (
     <form className="SearchBar" onSubmit={onSubmitHandle}>
+      <i class="fa-solid fa-magnifying-glass"></i>
       <input
         className="SearchBar__input"
         type="text"
